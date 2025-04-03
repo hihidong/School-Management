@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quản lý trường học</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- HEADER -->
+    <header>
+        <div class="logo">Quản lý trường học thông minh</div>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li class="dropdown">
+                    <a href="#">More ▼</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Account Management</a></li>
+                        <li><a href="#">Class & Timetable</a></li>
+                        <li><a href="#">Student Dashboard</a></li>
+                        <li><a href="#">Teacher Portal</a></li>
+                        <li><a href="#">Administrator Dashboard</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    
+    </header>
+
+    <!-- HERO SECTION -->
+    <section class="hero">
+        <div class="hero-text">
+            <h1>Quản lý trường học thông minh</h1>
+            <p>Quản lý trường học trực tuyến dễ dàng</p>
+            <a href="" class="btn-green">Xem thêm</a>
+        </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section class="about">
+        <div class="about-text">
+            <h3 class="subheading">Giáo dục thông minh</h3>
+            <h2>Quản lý hợp lý cho tất cả</h2>
+            <p>Tại web, chúng tôi cung cấp các công cụ thiết yếu cho quản trị viên, giáo viên, học sinh và phụ huynh tại Thành phố Trà Vinh, VN. Quản trị viên có thể quản lý hiệu quả tài khoản, lớp học và thời gian biểu trong khi vẫn thông báo cho mọi người. Giáo viên dễ dàng theo dõi tiến độ học tập của học sinh, nhập điểm, ghi lại điểm danh và tải bài tập lên. Học sinh có thể truy cập thời gian biểu, điểm số và tài liệu học tập thiết yếu của mình. Phụ huynh có thể theo dõi hành trình học tập của con mình và nhận thông tin cập nhật kịp thời. Hãy tham gia cùng chúng tôi để cách mạng hóa quản lý giáo dục!</p>
+            <a href="" class="link">Liên Hệ</a>
+        </div>
+        <div class="about-img">
+            <img src="picture/about-image.png" alt="About Us">
+        </div>
+    </section>
+
+    <!-- DASHBOARDS SECTION -->
+    <section class="dashboards">
+        <h3 class="subheading">Quản lý</h3>
+        <h2>Trao quyền cho các nhà giáo dục, học sinh và phụ huynh</h2>
+        <div class="dashboard-cards">
+            <div class="card">
+                <img src="picture/admin-dashboard.png" alt="Admin Dashboard">
+                <h3>Admin-dashboard</h3>
+                <p>Empower your school administration with a comprehensive dashboard.</p>
+            </div>
+            <div class="card">
+                <img src="picture/teacher-portal.png" alt="Teacher Portal">
+                <h3>Cổng thông tin giáo viên</h3>
+                <p>Streamline teaching processes with an intuitive portal.</p>
+            </div>
+            <div class="card">
+                <img src="picture/student-dashboard.png" alt="Student Dashboard">
+                <h3>Cổng thông tin học sinh</h3>
+                <p>Access your educational journey with ease and clarity.</p>
+            </div>
+        </div>
+    </section>
+        <!-- ACCOUNT MANAGEMENT SECTION -->
+        <section class="management">
+            <h2>Quản lý dễ dàng cho mọi người</h2>
+            <p>Quản lý tài khoản, lớp học và lịch trình một cách dễ dàng.</p>
+    
+            <div class="management-container">
+                <!-- Account Management -->
+                <div class="management-box">
+                    <img src="picture/6.png" alt="Account Management">
+                    <h3>Quản lý tài khoản</h3>
+                    <p>Admins can create, edit, and manage teacher, student, and parent accounts effortlessly.</p>
+                </div>
+    
+                <!-- Class and Timetable Management -->
+                <div class="management-box">
+                    <img src="picture/7.png" alt="Class and Timetable Management">
+                    <h3>Quản lý lớp học và thời khóa biểu</h3>
+                    <p>Seamlessly organize classes, assign subjects, and generate timetables for students and teachers.</p>
+                </div>
+            </div>
+        </section>    
+    <!-- CONTACT FORM SECTION -->
+    <section class="contact">
+        <h2>Liên Hệ</h2>
+        <p>Bạn có thắc mắc hoặc cần trợ giúp? Hãy liên hệ với chúng tôi bằng mẫu dưới đây.
+        </p>
+        <div class="contact-container">
+            <!-- Contact Form -->
+            <form class="contact-form">
+                <label for="name">Name</label>
+                <input type="text" id="name" placeholder="Nhập tên của bạn" required>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="Nhập email" required>
+
+                <label for="phone">Phone</label>
+                <input type="number" id="number" placeholder="Nhập số điện thoại" required>
+
+                <label for="message">Message</label>
+                <textarea id="message" rows="5" placeholder="Nhập lời nhắn" required></textarea>
+
+                <button type="submit" class="btn-green">Send Message</button>
+            </form>
+
+            <!-- Contact Info -->
+            <div class="contact-info">
+                <h3>Địa chỉ</h3>
+                <p>Láng cháo, Dân thành, TXDH, Trà Vinh, Vietnam</p>
+
+                <h3>Giờ làm việc</h3>
+                <p>Monday - Friday: 8:00 AM - 5:00 PM</p>
+                <p>Saturday - Sunday: Closed</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>&copy; 2024 School Management Website. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
